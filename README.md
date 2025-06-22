@@ -101,24 +101,24 @@ From the [MovieLens Latest Small Dataset](https://grouplens.org/datasets/moviele
 ## 🧠 Conclusion and recommendations
 
 1. User Engagement is Uneven
-Insight: A small percentage of users account for a large portion of the ratings.
-Business Takeaway: These are your power users — focus on retaining and rewarding them (e.g., personalized campaigns, early access to new releases).
+   * Insight: A small percentage of users account for a large portion of the ratings.
+   * Business Takeaway: These are your power users — focus on retaining and rewarding them (e.g., personalized campaigns, early access to new releases).
 
-2. Movie Popularity is Skewed
-Insight: A handful of movies receive the majority of ratings.
-Business Takeaway: These popular movies can be used to attract new users, but recommending only them may lead to redundancy and boredom. A recommendation system must balance popularity with diversity and novelty.
+3. Movie Popularity is Skewed
+   * Insight: A handful of movies receive the majority of ratings.
+   * Business Takeaway: These popular movies can be used to attract new users, but recommending only them may lead to redundancy and boredom. A recommendation system must balance popularity with diversity and novelty.
 
-3. Ratings Tend to Be High (Positively Skewed)
-Insight: Most ratings fall between 3 and 5, with very few ratings below 2.
-Business Takeaway: Users may avoid rating movies they dislike. Consider implicit feedback signals (watch time, skips) alongside ratings for a more complete picture of preferences.
+5. Ratings Tend to Be High (Positively Skewed)
+   * Insight: Most ratings fall between 3 and 5, with very few ratings below 2.
+   * Business Takeaway: Users may avoid rating movies they dislike. Consider implicit feedback signals (watch time, skips) alongside ratings for a more complete picture of preferences.
 
-4. Genres Are Not Rated Equally
-Insight: Certain genres like Drama, Comedy, and Action dominate the dataset.
-Business Takeaway: These genres could be prioritized for acquisition or marketing, while less-rated genres (e.g., Documentary, War) could be niche recommendations to keep long-tail users engaged.
+7. Genres Are Not Rated Equally
+   * Insight: Certain genres like Drama, Comedy, and Action dominate the dataset.
+   * Business Takeaway: These genres could be prioritized for acquisition or marketing, while less-rated genres (e.g., Documentary, War) could be niche recommendations to keep long-tail users engaged.
 
-5. Rating Behavior Differs by User
-Insight: Some users are harsh, others rate generously.
-Business Takeaway: A personalized recommendation model must consider each user’s rating scale. This justifies using models like collaborative filtering or similarity-weighted predictions rather than raw
+9. Rating Behavior Differs by User
+    * Insight: Some users are harsh, others rate generously.
+    * Business Takeaway: A personalized recommendation model must consider each user’s rating scale. This justifies using models like collaborative filtering or similarity-weighted predictions rather than raw
  
 
 ---
